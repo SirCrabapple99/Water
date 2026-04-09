@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_4x3.jpg');
+    background-color: darkblue;
 }
 
 #buttonContainer {
@@ -12,8 +12,8 @@ body {
     height: 112.5px;
     border-radius: 115px;
 
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(2px) url(#myFilter);
+    /* backdrop-filter: blur(2px) url(#myFilter); */
+    background-color: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255,255,255,.1);
 
     transition: all 0.4s;
@@ -21,5 +21,5 @@ body {
 }
 
 .listButton:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.15, 1.15);
 }
